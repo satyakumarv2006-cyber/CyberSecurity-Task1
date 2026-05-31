@@ -1,0 +1,65 @@
+# Nmap 7.99 scan initiated Sun May 31 15:22:08 2026 as: nmap -sS -oN scan_results.txt 192.168.31.0/24
+Nmap scan report for jiofiber.local.html (192.168.31.1)
+Host is up (0.0053s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+53/tcp   open  domain
+80/tcp   open  http
+443/tcp  open  https
+7443/tcp open  oracleas-https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+MAC Address: 4C:82:A9:C7:CD:AC (Cloud Network Technology Singapore PTE.)
+
+Nmap scan report for espressif.lan (192.168.31.17)
+Host is up (0.044s latency).
+All 1000 scanned ports on espressif.lan (192.168.31.17) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: B0:81:84:10:CF:38 (Espressif)
+
+Nmap scan report for SetTopBox-1686.lan (192.168.31.68)
+Host is up (0.022s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE
+2869/tcp open  icslap
+MAC Address: A8:71:16:5A:A3:5E (Earda Technologies)
+
+Nmap scan report for Satyavathi-s-F06.lan (192.168.31.105)
+Host is up (0.034s latency).
+All 1000 scanned ports on Satyavathi-s-F06.lan (192.168.31.105) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: DA:00:3C:DA:69:2C (Unknown)
+
+Nmap scan report for V2315.lan (192.168.31.136)
+Host is up (0.16s latency).
+All 1000 scanned ports on V2315.lan (192.168.31.136) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: B6:73:A4:F6:46:6C (Unknown)
+
+Nmap scan report for LGwebOSTV.lan (192.168.31.187)
+Host is up (0.21s latency).
+All 1000 scanned ports on LGwebOSTV.lan (192.168.31.187) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: C8:99:B2:15:43:56 (Arcadyan)
+
+Nmap scan report for V2153.lan (192.168.31.221)
+Host is up (0.100s latency).
+All 1000 scanned ports on V2153.lan (192.168.31.221) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 56:16:8F:07:D6:3B (Unknown)
+
+Nmap scan report for OPPO-A5x-5G.lan (192.168.31.246)
+Host is up (0.16s latency).
+All 1000 scanned ports on OPPO-A5x-5G.lan (192.168.31.246) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 92:E1:EF:71:23:82 (Unknown)
+
+Nmap scan report for DESKTOP-CGO0OAS.lan (192.168.31.213)
+Host is up (0.00s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+# Nmap done at Sun May 31 15:25:25 2026 -- 256 IP addresses (9 hosts up) scanned in 197.38 seconds
